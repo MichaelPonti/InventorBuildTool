@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "AddinXform": {
+      "commandName": "Project",
+      "commandLineArgs": "deploy --addinpath \"C:\\git\\Bom2Excel\\Bom2ExcelDev\\Bom2Excel\\Bbsw.Bom2Excel.Inventor.addin\" --destination \"C:\\ProgramData\\Autodesk\\Inventor 2021\\Addins\" --dllpath \"C:\\git\\Bom2Excel\\Bom2ExcelDev\\Bom2Excel\\bin\\Debug\\Bom2Excel.dll\""
+    },
+    "Version Updates": {
+      "commandName": "Project",
+      "commandLineArgs": "update --addinpath \"C:\\ProgramData\\Autodesk\\Inventor 2021\\Addins\\Bbsw.Bom2Excel.InventorTest.addin\" --SupportedSoftwareVersionEqualTo \"1.0\" --SupportedSoftwareVersionGreaterThan \"1.2\" --SupportedSoftwareVersionLessThan \"1.3\" --SupportedSoftwareVersionNotEqualTo \"1.4\""
+    }
+  }
+}
